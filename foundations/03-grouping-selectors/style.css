@@ -1,0 +1,20 @@
+/* Use group selectors for style declarations that will be shared by multiple class selectors.  
+Both selectors are selected by a comma-separated list. */
+
+.blackBtn .yellowBtn {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* Individual unique style declarations */
+
+.blackBtn {
+  background-color: black;
+  color: white;
+}
+
+/* Individual unique style declarations */
+
+.yellowBtn {
+  background-color: yellow;
+}
