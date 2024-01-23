@@ -1,0 +1,27 @@
+/* Element 1 and 5: Use class selector */
+
+.odd-number {
+  background-color: rgb(245, 178, 178);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* Element 2: Use ID selector */
+
+#number-two {
+  color: rgb(26, 26, 202);
+  font-size: 36px;
+}
+
+/* Element 3: Use multiple class selectors - in this case, we use the class 'odd-number' and 'cooler' */
+
+.cooler {
+  font-size: 24px;
+}
+
+/* Element 4: Use ID selector */
+
+#number-four {
+  background-color: rgb(171, 230, 171);
+  font-size: 24px;
+  font-weight: bold;
+}
